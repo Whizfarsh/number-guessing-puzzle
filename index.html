@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    <title>Number Guessing Game</title>
+  </head>
+  <body>
+    <section class="guess-game">
+      <div class="guess-game-body">
+        <h1 class="game-main-header">Number Guessing Game</h1>
+        <div class="game-g-number">
+          <p class="game-guess-number">?</p>
+        </div>
+
+        <h6 class="number-range">
+          The number is between <span class="rangeA">1</span> -
+          <span class="rangeB">20</span>
+        </h6>
+        <div class="game">
+          <div class="guessing">
+            <p class="limit">
+              <span class="game-count">5</span> more game to guess
+            </p>
+            <input type="number" class="game-number-input" />
+            <div class="btn">
+              <button class="game-number-btn">GUESS NUMBER</button>
+            </div>
+          </div>
+          <div class="game-info">
+            <p class="game-info-result"></p>
+            <p>Total Attempt : <span class="total-attempt">10</span></p>
+            <p>Correct : <span class="correct-point">0</span> points</p>
+            <p>Missed : <span class="missed-point">0</span> points</p>
+            <p>SCORE : <span class="score-percentage">0</span>%</p>
+            <div class="btn">
+              <button class="game-restart-btn">RESTART GAME</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

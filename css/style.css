@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+.guess-game {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.guess-game-body {
+  background-color: #e8e8e8;
+  margin-top: 30%;
+}
+.game-main-header {
+  background-color: #6f4f01;
+  color: #fcfcfc;
+  font-size: 5.4rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-align: center;
+}
+.game-g-number {
+  width: 12rem;
+  margin: 0 auto;
+}
+.game-guess-number {
+  text-align: center;
+  color: #fcfcfc;
+  font-size: 5rem;
+  font-weight: 800;
+  background-color: #593f01;
+  margin: 1rem 0;
+  padding: 7px;
+
+  box-shadow: 0 2px 9px #000000;
+}
+.number-range {
+  font-size: 3rem;
+  text-align: center;
+}
+.game {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 8rem;
+  padding: 3rem;
+}
+.guessing {
+  align-self: center;
+}
+.limit {
+  font-size: 2.6rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.game-number-input {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 1rem;
+  width: 40rem;
+  border: 1px solid #fcfcfc;
+}
+.game-number-input:focus {
+  border: 1px solid #593f01;
+  background-color: #f1ede6;
+}
+button {
+  margin: 0 auto;
+  border: none;
+  border-radius: 7px;
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1.2rem;
+  color: #fcfcfc;
+}
+
+.game-number-btn {
+  background-color: #6f4f01;
+  display: flex;
+  justify-content: center;
+}
+.game-restart-btn {
+  background-color: #593f01;
+}
+.game-info {
+  font-size: 2.5rem;
+}
+.game-info-result {
+  font-weight: 500;
+  margin-bottom: 7px;
+}

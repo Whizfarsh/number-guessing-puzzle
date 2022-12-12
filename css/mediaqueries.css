@@ -1,0 +1,51 @@
+@media (max-width: 43.8rem) {
+  .game-info-result {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .game-main-header {
+    font-size: 4.5rem;
+  }
+  .game {
+    gap: 4rem;
+    justify-content: space-around;
+  }
+  .game-info p {
+    font-size: 1.8rem;
+  }
+  .game-number-input {
+    width: auto;
+  }
+  .guess-game-body {
+    background-color: #e8e8e8;
+    margin-top: 2%;
+  }
+}
+/* =============== */
+@media (max-width: 35.6rem) {
+  .game-main-header {
+    font-size: 4rem;
+  }
+  .game {
+    flex-direction: column;
+    background-color: #f1ede6;
+    margin-top: 8px;
+    padding-top: 5px;
+  }
+  .game-info {
+    align-self: center;
+  }
+  .game {
+    flex-direction: column;
+    flex-flow: 1;
+  }
+}
+@media (max-width: 33rem) {
+  .game-main-header {
+    font-size: 3rem;
+  }
+  .number-range {
+    font-size: 2.8rem;
+  }
+} ;
